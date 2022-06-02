@@ -7,7 +7,7 @@ int Prev[300];
 bool Visited[300];
 int n,m;
 
-unsigned Augment()
+int Augment()
 {
     int v;
     int i;
@@ -19,7 +19,7 @@ unsigned Augment()
     q.push_back(1);
     bool bFindPath = false;
 
-    while( ! q.empty()) {
+    while(!q.empty()) {
         v = q.front();
         q.pop_front();
         for( i = 1;i <= m;i ++) {
@@ -40,13 +40,10 @@ unsigned Augment()
         return 0;
     int nMinFlow = 999999999;
     v = m;
-//寻找源到汇路径上容量最小的边，其容量就是此次增
-    加的总流量
     while( Prev[v] ) {
         nMinFlow = min( nMinFlow,G[Prev[v]][v]);
         v = Prev[v];
     }
-//沿此路径添加反向边，同时修改路径上每条边的容量
     v = m;
     while( Prev[v] ) {
         G[Prev[v]][v] -= nMinFlow;
@@ -58,17 +55,16 @@ unsigned Augment()
 int main()
 {
     while (cin >> n >> m ) {
-//m是顶点数目，顶点编号从1开始
         int i,j,k;
         int s,e,c;
         memset( G,0,sizeof(G));
         for( i = 0;i < n;i ++ ) {
             cin >> s >> e >> c;
-            G[s][e] += c; //两点之间可能有多条边
+            G[s][e] += c;
         }
-        unsigned int MaxFlow = 0;
-        unsigned int aug;
-        while( aug = Augment() )
+        int MaxFlow = 0;
+        int aug;
+        while( aug = Augment() )//如果aug为0，说明已经不存在增广路径
             MaxFlow += aug;
         cout << MaxFlow << endl;
     }
