@@ -176,6 +176,30 @@ Ford_Fulkerson.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\MaxFlow.dir\build.make CMakeFiles/MaxFlow.dir/Ford_Fulkerson.cpp.s
 .PHONY : Ford_Fulkerson.cpp.s
 
+push_relabel.obj: push_relabel.cpp.obj
+.PHONY : push_relabel.obj
+
+# target to build an object file
+push_relabel.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MaxFlow.dir\build.make CMakeFiles/MaxFlow.dir/push_relabel.cpp.obj
+.PHONY : push_relabel.cpp.obj
+
+push_relabel.i: push_relabel.cpp.i
+.PHONY : push_relabel.i
+
+# target to preprocess a source file
+push_relabel.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MaxFlow.dir\build.make CMakeFiles/MaxFlow.dir/push_relabel.cpp.i
+.PHONY : push_relabel.cpp.i
+
+push_relabel.s: push_relabel.cpp.s
+.PHONY : push_relabel.s
+
+# target to generate assembly for a file
+push_relabel.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MaxFlow.dir\build.make CMakeFiles/MaxFlow.dir/push_relabel.cpp.s
+.PHONY : push_relabel.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -191,6 +215,9 @@ help:
 	@echo ... Ford_Fulkerson.obj
 	@echo ... Ford_Fulkerson.i
 	@echo ... Ford_Fulkerson.s
+	@echo ... push_relabel.obj
+	@echo ... push_relabel.i
+	@echo ... push_relabel.s
 .PHONY : help
 
 

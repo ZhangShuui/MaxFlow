@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/zsr/CLionProjects/MaxFlow/Dinic.cpp" "C:/Users/zsr/CLionProjects/MaxFlow/cmake-build-debug/CMakeFiles/MaxFlow.dir/Dinic.cpp.obj"
   "C:/Users/zsr/CLionProjects/MaxFlow/Ford Fulkerson.cpp" "C:/Users/zsr/CLionProjects/MaxFlow/cmake-build-debug/CMakeFiles/MaxFlow.dir/Ford_Fulkerson.cpp.obj"
+  "C:/Users/zsr/CLionProjects/MaxFlow/push relabel.cpp" "C:/Users/zsr/CLionProjects/MaxFlow/cmake-build-debug/CMakeFiles/MaxFlow.dir/push_relabel.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
