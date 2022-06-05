@@ -176,6 +176,30 @@ Ford_Fulkerson.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\MaxFlow.dir\build.make CMakeFiles/MaxFlow.dir/Ford_Fulkerson.cpp.s
 .PHONY : Ford_Fulkerson.cpp.s
 
+flight.obj: flight.cpp.obj
+.PHONY : flight.obj
+
+# target to build an object file
+flight.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MaxFlow.dir\build.make CMakeFiles/MaxFlow.dir/flight.cpp.obj
+.PHONY : flight.cpp.obj
+
+flight.i: flight.cpp.i
+.PHONY : flight.i
+
+# target to preprocess a source file
+flight.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MaxFlow.dir\build.make CMakeFiles/MaxFlow.dir/flight.cpp.i
+.PHONY : flight.cpp.i
+
+flight.s: flight.cpp.s
+.PHONY : flight.s
+
+# target to generate assembly for a file
+flight.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MaxFlow.dir\build.make CMakeFiles/MaxFlow.dir/flight.cpp.s
+.PHONY : flight.cpp.s
+
 push_relabel.obj: push_relabel.cpp.obj
 .PHONY : push_relabel.obj
 
@@ -215,6 +239,9 @@ help:
 	@echo ... Ford_Fulkerson.obj
 	@echo ... Ford_Fulkerson.i
 	@echo ... Ford_Fulkerson.s
+	@echo ... flight.obj
+	@echo ... flight.i
+	@echo ... flight.s
 	@echo ... push_relabel.obj
 	@echo ... push_relabel.i
 	@echo ... push_relabel.s
