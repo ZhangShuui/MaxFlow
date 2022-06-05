@@ -128,29 +128,53 @@ MaxFlow/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\MaxFlow.dir\build.make CMakeFiles/MaxFlow.dir/build
 .PHONY : MaxFlow/fast
 
-main.obj: main.cpp.obj
-.PHONY : main.obj
+Dinic.obj: Dinic.cpp.obj
+.PHONY : Dinic.obj
 
 # target to build an object file
-main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\MaxFlow.dir\build.make CMakeFiles/MaxFlow.dir/main.cpp.obj
-.PHONY : main.cpp.obj
+Dinic.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MaxFlow.dir\build.make CMakeFiles/MaxFlow.dir/Dinic.cpp.obj
+.PHONY : Dinic.cpp.obj
 
-main.i: main.cpp.i
-.PHONY : main.i
+Dinic.i: Dinic.cpp.i
+.PHONY : Dinic.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\MaxFlow.dir\build.make CMakeFiles/MaxFlow.dir/main.cpp.i
-.PHONY : main.cpp.i
+Dinic.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MaxFlow.dir\build.make CMakeFiles/MaxFlow.dir/Dinic.cpp.i
+.PHONY : Dinic.cpp.i
 
-main.s: main.cpp.s
-.PHONY : main.s
+Dinic.s: Dinic.cpp.s
+.PHONY : Dinic.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\MaxFlow.dir\build.make CMakeFiles/MaxFlow.dir/main.cpp.s
-.PHONY : main.cpp.s
+Dinic.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MaxFlow.dir\build.make CMakeFiles/MaxFlow.dir/Dinic.cpp.s
+.PHONY : Dinic.cpp.s
+
+Ford_Fulkerson.obj: Ford_Fulkerson.cpp.obj
+.PHONY : Ford_Fulkerson.obj
+
+# target to build an object file
+Ford_Fulkerson.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MaxFlow.dir\build.make CMakeFiles/MaxFlow.dir/Ford_Fulkerson.cpp.obj
+.PHONY : Ford_Fulkerson.cpp.obj
+
+Ford_Fulkerson.i: Ford_Fulkerson.cpp.i
+.PHONY : Ford_Fulkerson.i
+
+# target to preprocess a source file
+Ford_Fulkerson.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MaxFlow.dir\build.make CMakeFiles/MaxFlow.dir/Ford_Fulkerson.cpp.i
+.PHONY : Ford_Fulkerson.cpp.i
+
+Ford_Fulkerson.s: Ford_Fulkerson.cpp.s
+.PHONY : Ford_Fulkerson.s
+
+# target to generate assembly for a file
+Ford_Fulkerson.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MaxFlow.dir\build.make CMakeFiles/MaxFlow.dir/Ford_Fulkerson.cpp.s
+.PHONY : Ford_Fulkerson.cpp.s
 
 # Help Target
 help:
@@ -161,9 +185,12 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... MaxFlow
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
+	@echo ... Dinic.obj
+	@echo ... Dinic.i
+	@echo ... Dinic.s
+	@echo ... Ford_Fulkerson.obj
+	@echo ... Ford_Fulkerson.i
+	@echo ... Ford_Fulkerson.s
 .PHONY : help
 
 

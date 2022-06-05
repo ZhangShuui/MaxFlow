@@ -65,32 +65,47 @@ include CMakeFiles/MaxFlow.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/MaxFlow.dir/flags.make
 
-CMakeFiles/MaxFlow.dir/main.cpp.obj: CMakeFiles/MaxFlow.dir/flags.make
-CMakeFiles/MaxFlow.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\zsr\CLionProjects\MaxFlow\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/MaxFlow.dir/main.cpp.obj"
-	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\MaxFlow.dir\main.cpp.obj -c C:\Users\zsr\CLionProjects\MaxFlow\main.cpp
+CMakeFiles/MaxFlow.dir/Ford_Fulkerson.cpp.obj: CMakeFiles/MaxFlow.dir/flags.make
+CMakeFiles/MaxFlow.dir/Ford_Fulkerson.cpp.obj: ../Ford\ Fulkerson.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\zsr\CLionProjects\MaxFlow\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/MaxFlow.dir/Ford_Fulkerson.cpp.obj"
+	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\MaxFlow.dir\Ford_Fulkerson.cpp.obj -c "C:\Users\zsr\CLionProjects\MaxFlow\Ford Fulkerson.cpp"
 
-CMakeFiles/MaxFlow.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MaxFlow.dir/main.cpp.i"
-	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\zsr\CLionProjects\MaxFlow\main.cpp > CMakeFiles\MaxFlow.dir\main.cpp.i
+CMakeFiles/MaxFlow.dir/Ford_Fulkerson.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MaxFlow.dir/Ford_Fulkerson.cpp.i"
+	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\zsr\CLionProjects\MaxFlow\Ford Fulkerson.cpp" > CMakeFiles\MaxFlow.dir\Ford_Fulkerson.cpp.i
 
-CMakeFiles/MaxFlow.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MaxFlow.dir/main.cpp.s"
-	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\zsr\CLionProjects\MaxFlow\main.cpp -o CMakeFiles\MaxFlow.dir\main.cpp.s
+CMakeFiles/MaxFlow.dir/Ford_Fulkerson.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MaxFlow.dir/Ford_Fulkerson.cpp.s"
+	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\zsr\CLionProjects\MaxFlow\Ford Fulkerson.cpp" -o CMakeFiles\MaxFlow.dir\Ford_Fulkerson.cpp.s
+
+CMakeFiles/MaxFlow.dir/Dinic.cpp.obj: CMakeFiles/MaxFlow.dir/flags.make
+CMakeFiles/MaxFlow.dir/Dinic.cpp.obj: ../Dinic.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\zsr\CLionProjects\MaxFlow\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/MaxFlow.dir/Dinic.cpp.obj"
+	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\MaxFlow.dir\Dinic.cpp.obj -c C:\Users\zsr\CLionProjects\MaxFlow\Dinic.cpp
+
+CMakeFiles/MaxFlow.dir/Dinic.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MaxFlow.dir/Dinic.cpp.i"
+	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\zsr\CLionProjects\MaxFlow\Dinic.cpp > CMakeFiles\MaxFlow.dir\Dinic.cpp.i
+
+CMakeFiles/MaxFlow.dir/Dinic.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MaxFlow.dir/Dinic.cpp.s"
+	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\zsr\CLionProjects\MaxFlow\Dinic.cpp -o CMakeFiles\MaxFlow.dir\Dinic.cpp.s
 
 # Object files for target MaxFlow
 MaxFlow_OBJECTS = \
-"CMakeFiles/MaxFlow.dir/main.cpp.obj"
+"CMakeFiles/MaxFlow.dir/Ford_Fulkerson.cpp.obj" \
+"CMakeFiles/MaxFlow.dir/Dinic.cpp.obj"
 
 # External object files for target MaxFlow
 MaxFlow_EXTERNAL_OBJECTS =
 
-MaxFlow.exe: CMakeFiles/MaxFlow.dir/main.cpp.obj
+MaxFlow.exe: CMakeFiles/MaxFlow.dir/Ford_Fulkerson.cpp.obj
+MaxFlow.exe: CMakeFiles/MaxFlow.dir/Dinic.cpp.obj
 MaxFlow.exe: CMakeFiles/MaxFlow.dir/build.make
 MaxFlow.exe: CMakeFiles/MaxFlow.dir/linklibs.rsp
 MaxFlow.exe: CMakeFiles/MaxFlow.dir/objects1.rsp
 MaxFlow.exe: CMakeFiles/MaxFlow.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\zsr\CLionProjects\MaxFlow\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable MaxFlow.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\zsr\CLionProjects\MaxFlow\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable MaxFlow.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\MaxFlow.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

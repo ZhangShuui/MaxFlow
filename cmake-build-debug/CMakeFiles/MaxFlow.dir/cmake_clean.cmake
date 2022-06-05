@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/MaxFlow.dir/main.cpp.obj"
+  "CMakeFiles/MaxFlow.dir/Dinic.cpp.obj"
+  "CMakeFiles/MaxFlow.dir/Ford_Fulkerson.cpp.obj"
   "MaxFlow.exe"
   "MaxFlow.exe.manifest"
   "MaxFlow.pdb"

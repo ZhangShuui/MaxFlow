@@ -82,7 +82,10 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/zsr/CLionProjects/MaxFlow/main.cpp">
+		<Unit filename="C:/Users/zsr/CLionProjects/MaxFlow/Dinic.cpp">
+			<Option target="MaxFlow"/>
+		</Unit>
+		<Unit filename="C:/Users/zsr/CLionProjects/MaxFlow/Ford Fulkerson.cpp">
 			<Option target="MaxFlow"/>
 		</Unit>
 		<Unit filename="C:/Users/zsr/CLionProjects/MaxFlow/CMakeLists.txt">

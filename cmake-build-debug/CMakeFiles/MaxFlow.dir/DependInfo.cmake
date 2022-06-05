@@ -8,7 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/zsr/CLionProjects/MaxFlow/main.cpp" "C:/Users/zsr/CLionProjects/MaxFlow/cmake-build-debug/CMakeFiles/MaxFlow.dir/main.cpp.obj"
+  "C:/Users/zsr/CLionProjects/MaxFlow/Dinic.cpp" "C:/Users/zsr/CLionProjects/MaxFlow/cmake-build-debug/CMakeFiles/MaxFlow.dir/Dinic.cpp.obj"
+  "C:/Users/zsr/CLionProjects/MaxFlow/Ford Fulkerson.cpp" "C:/Users/zsr/CLionProjects/MaxFlow/cmake-build-debug/CMakeFiles/MaxFlow.dir/Ford_Fulkerson.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
