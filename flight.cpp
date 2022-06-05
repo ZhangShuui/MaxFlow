@@ -3,8 +3,6 @@
 //
 
 #include <iostream>
-#include <cstdio>
-#include <cstdlib>
 #include <cstring>
 using namespace std;
 const int MAXN=2e5+5;

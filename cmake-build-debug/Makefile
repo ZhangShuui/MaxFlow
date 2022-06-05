@@ -200,6 +200,30 @@ flight.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\MaxFlow.dir\build.make CMakeFiles/MaxFlow.dir/flight.cpp.s
 .PHONY : flight.cpp.s
 
+napkin.obj: napkin.cpp.obj
+.PHONY : napkin.obj
+
+# target to build an object file
+napkin.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MaxFlow.dir\build.make CMakeFiles/MaxFlow.dir/napkin.cpp.obj
+.PHONY : napkin.cpp.obj
+
+napkin.i: napkin.cpp.i
+.PHONY : napkin.i
+
+# target to preprocess a source file
+napkin.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MaxFlow.dir\build.make CMakeFiles/MaxFlow.dir/napkin.cpp.i
+.PHONY : napkin.cpp.i
+
+napkin.s: napkin.cpp.s
+.PHONY : napkin.s
+
+# target to generate assembly for a file
+napkin.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MaxFlow.dir\build.make CMakeFiles/MaxFlow.dir/napkin.cpp.s
+.PHONY : napkin.cpp.s
+
 push_relabel.obj: push_relabel.cpp.obj
 .PHONY : push_relabel.obj
 
@@ -242,6 +266,9 @@ help:
 	@echo ... flight.obj
 	@echo ... flight.i
 	@echo ... flight.s
+	@echo ... napkin.obj
+	@echo ... napkin.i
+	@echo ... napkin.s
 	@echo ... push_relabel.obj
 	@echo ... push_relabel.i
 	@echo ... push_relabel.s

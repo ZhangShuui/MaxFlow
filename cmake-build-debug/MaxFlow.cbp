@@ -91,6 +91,9 @@
 		<Unit filename="C:/Users/zsr/CLionProjects/MaxFlow/flight.cpp">
 			<Option target="MaxFlow"/>
 		</Unit>
+		<Unit filename="C:/Users/zsr/CLionProjects/MaxFlow/napkin.cpp">
+			<Option target="MaxFlow"/>
+		</Unit>
 		<Unit filename="C:/Users/zsr/CLionProjects/MaxFlow/push relabel.cpp">
 			<Option target="MaxFlow"/>
 		</Unit>
